@@ -167,15 +167,20 @@ html, body {
   }
 }
 
+@keyframes LavaWater {
+  0% {
+    background-color: #99b9c5;
+  }
+  100% {
+    background-color: #ff4a00;
+  }
+}
+
 /*
 
 
 
 
-@keyframes LavaWater {
-	0% { background-color: #99b9c5; }
-	100% { background-color: #ff4a00; }
-}
 
 .containers {
   width: 520px;
