@@ -119,7 +119,7 @@ html, body {
 
 .window__lava--two {
   animation: LavaTwoDrip 10s;
-  height: 250px;
+  height: 190px;
   left: 47%;
   transform: translate(-50%);
   width: 10px;
