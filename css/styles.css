@@ -136,20 +136,21 @@ html, body {
   z-index: -10;
 }
 
+.window__water {
+  animation: LavaWater 35s;
+  background-color: #ff4a00;
+  border-radius: 100%;
+  bottom: 0;
+  height: 50px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  width: 200px;
+  z-index: -8;
+}
+
 /*
 
-.window__water {
-	animation: LavaWater 35s;
-	background-color: #ff4a00;
-	border-radius: 100%;
-	bottom: 0;
-	height: 50px;
-	left: 50%;
-	position: absolute;
-	transform: translate(-50%);
-	width: 200px;
-	z-index: -8;
-}
 
 @keyframes LavaOneDrip {
 	0% { height: 0; }
