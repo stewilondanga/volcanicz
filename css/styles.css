@@ -61,6 +61,10 @@ html, body {
   z-index: -8;
 }
 
+.window__smoke--one {
+  width: 275px;
+}
+
 /*
 
 
@@ -73,9 +77,6 @@ html, body {
 
 
 
-.window__smoke--one {
-	width: 275px;
-}
 
 .window__smoke--two {
 	left: 50%;
