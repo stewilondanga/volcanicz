@@ -90,6 +90,11 @@ html, body {
   z-index: -9;
 }
 
+.window__curve--one {
+  border-bottom-right-radius: 100%;
+  left: 0;
+}
+
 /*
 
 
@@ -106,10 +111,6 @@ html, body {
 
 
 
-.window__curve--one {
-	border-bottom-right-radius: 100%;
-	left: 0;
-}
 
 .window__curve--two {
 	border-bottom-left-radius: 100%;
