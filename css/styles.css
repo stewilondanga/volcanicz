@@ -46,9 +46,9 @@ html, body {
   background-color: #ebede2;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  height: 350px;
+  height: 300px;
   position: absolute;
-  width: 275px;
+  width: 224px;
   z-index: -10;
 }
 
