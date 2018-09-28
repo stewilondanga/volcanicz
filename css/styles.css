@@ -95,6 +95,11 @@ html, body {
   left: 0;
 }
 
+.window__curve--two {
+  border-bottom-left-radius: 100%;
+  right: 0;
+}
+
 /*
 
 
@@ -112,10 +117,6 @@ html, body {
 
 
 
-.window__curve--two {
-	border-bottom-left-radius: 100%;
-	right: 0;
-}
 
 .window__lava {
 	background-color: #ff4a00;
