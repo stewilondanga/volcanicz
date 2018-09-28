@@ -65,6 +65,13 @@ html, body {
   width: 225px;
 }
 
+.window__smoke--two {
+  left: 50%;
+  top: 30px;
+  transform: translate(-50%);
+  width: 150px;
+}
+
 /*
 
 
@@ -78,12 +85,6 @@ html, body {
 
 
 
-.window__smoke--two {
-	left: 50%;
-	top: 30px;
-	transform: translate(-50%);
-	width: 150px;
-}
 
 .window__smoke--three {
 	border-radius: 0;
