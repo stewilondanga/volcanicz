@@ -193,9 +193,6 @@ html, body {
   border-bottom: 3px solid #f3f3f3;
 }
 
-/*
-
-
 .cal {
   display: inline-block;
   background: #ffe;
@@ -205,6 +202,8 @@ html, body {
   transform: scale(1);
   transition: all 0.2s linear;
 }
+
+/*
 
 .cal:hover {
   transform: scale(2.5);
