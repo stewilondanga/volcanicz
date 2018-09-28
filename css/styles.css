@@ -37,9 +37,9 @@ html, body {
   border-bottom-right-radius: 50%;
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
-  height: 350px;
+  height: 400px;
   position: relative;
-  width: 275px;
+  width: 355px;
 }
 
 .window__top-background {
