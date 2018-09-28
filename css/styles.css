@@ -1,4 +1,10 @@
-body {
+html, body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +25,153 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+
+
+.awesome-window-container {
+	background-color: #80c3cc;
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	z-index: -1;
+}
+
+.window {
+	background-color: transparent;
+	border: 40px solid #fff4e1;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 25%;
+	border-top-right-radius: 25%;
+	height: 350px;
+	position: relative;
+	width: 275px;
+}
+
+.window__top-background {
+	background-color: #ebede2;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	height: 350px;
+	position: absolute;
+	width: 275px;
+	z-index: -10;
+}
+
+.window__smoke {
+	background-color: #dfd1c8;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	height: 60px;
+	position: absolute;
+	z-index: -8;
+}
+
+.window__smoke--one {
+	width: 275px;
+}
+
+.window__smoke--two {
+	left: 50%;
+	top: 30px;
+	transform: translate(-50%);
+	width: 150px;
+}
+
+.window__smoke--three {
+	border-radius: 0;
+	height: 35px;
+	left: 50%;
+	top: 75px;
+	transform: translate(-50%);
+	width: 20px;
+}
+
+.window__curve {
+	background-color: #ebede2;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+	width: 125px;
+	z-index: -9;
+}
+
+.window__curve--one {
+	border-bottom-right-radius: 100%;
+	left: 0;
+}
+
+.window__curve--two {
+	border-bottom-left-radius: 100%;
+	right: 0;
+}
+
+.window__lava {
+	background-color: #ff4a00;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	position: absolute;
+	top: 110px;
+	z-index: -8;
+}
+
+.window__lava--one {
+	animation: LavaOneDrip 15s;
+	height: 250px;
+	left: 53%;
+	transform: translate(-50%);
+	width: 10px;
+}
+
+.window__lava--two {
+	animation: LavaTwoDrip 10s;
+	height: 250px;
+	left: 47%;
+	transform: translate(-50%);
+	width: 10px;
+}
+
+.window__volcano {
+	background-color: #b19995;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	bottom: 0;
+	height: 240px;
+	position: absolute;
+	width: 275px;
+	z-index: -10;
+}
+
+.window__water {
+	animation: LavaWater 35s;
+	background-color: #ff4a00;
+	border-radius: 100%;
+	bottom: 0;
+	height: 50px;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%);
+	width: 200px;
+	z-index: -8;
+}
+
+@keyframes LavaOneDrip {
+	0% { height: 0; }
+	250% { height: 250px; }
+}
+
+@keyframes LavaTwoDrip {
+	0% { height: 50px; }
+	100% { height: 250px; }
+}
+
+@keyframes LavaWater {
+	0% { background-color: #99b9c5; }
+	100% { background-color: #ff4a00; }
 }
 
 .containers {
