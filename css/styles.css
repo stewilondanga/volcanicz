@@ -42,6 +42,16 @@ html, body {
   width: 275px;
 }
 
+.window__top-background {
+  background-color: #ebede2;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 350px;
+  position: absolute;
+  width: 275px;
+  z-index: -10;
+}
+
 /*
 
 
@@ -51,16 +61,6 @@ html, body {
 
 
 
-
-.window__top-background {
-	background-color: #ebede2;
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-	height: 350px;
-	position: absolute;
-	width: 275px;
-	z-index: -10;
-}
 
 .window__smoke {
 	background-color: #dfd1c8;
