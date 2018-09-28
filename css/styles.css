@@ -30,6 +30,18 @@ html, body {
   z-index: -1;
 }
 
+.window {
+  background-color: transparent;
+  border: 40px solid #fff4e1;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  height: 350px;
+  position: relative;
+  width: 275px;
+}
+
 /*
 
 
@@ -38,17 +50,7 @@ html, body {
 
 
 
-.window {
-	background-color: transparent;
-	border: 40px solid #fff4e1;
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-	border-top-left-radius: 25%;
-	border-top-right-radius: 25%;
-	height: 350px;
-	position: relative;
-	width: 275px;
-}
+
 
 .window__top-background {
 	background-color: #ebede2;
