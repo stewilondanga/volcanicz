@@ -111,7 +111,7 @@ html, body {
 
 .window__lava--one {
   animation: LavaOneDrip 15s;
-  height: 250px;
+  height: 190px;
   left: 53%;
   transform: translate(-50%);
   width: 10px;
