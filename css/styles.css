@@ -117,15 +117,16 @@ html, body {
   width: 10px;
 }
 
+.window__lava--two {
+  animation: LavaTwoDrip 10s;
+  height: 250px;
+  left: 47%;
+  transform: translate(-50%);
+  width: 10px;
+}
+
 /*
 
-.window__lava--two {
-	animation: LavaTwoDrip 10s;
-	height: 250px;
-	left: 47%;
-	transform: translate(-50%);
-	width: 10px;
-}
 
 .window__volcano {
 	background-color: #b19995;
