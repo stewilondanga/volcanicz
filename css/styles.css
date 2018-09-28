@@ -81,6 +81,15 @@ html, body {
   width: 20px;
 }
 
+.window__curve {
+  background-color: #ebede2;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  width: 125px;
+  z-index: -9;
+}
+
 /*
 
 
@@ -96,14 +105,6 @@ html, body {
 
 
 
-.window__curve {
-	background-color: #ebede2;
-	height: 200px;
-	position: absolute;
-	top: 50px;
-	width: 125px;
-	z-index: -9;
-}
 
 .window__curve--one {
 	border-bottom-right-radius: 100%;
