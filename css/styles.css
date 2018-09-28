@@ -19,6 +19,17 @@ html, body {
   height: 1.5em;
 }
 
+.awesome-window-container {
+  background-color: #80c3cc;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+
 /*
 
 
@@ -26,16 +37,6 @@ html, body {
 
 
 
-.awesome-window-container {
-	background-color: #80c3cc;
-	align-items: center;
-	display: flex;
-	height: 100%;
-	justify-content: center;
-	position: relative;
-	width: 100%;
-	z-index: -1;
-}
 
 .window {
 	background-color: transparent;
