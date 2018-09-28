@@ -125,19 +125,18 @@ html, body {
   width: 10px;
 }
 
-/*
-
-
 .window__volcano {
-	background-color: #b19995;
-	border-bottom-left-radius: 100%;
-	border-bottom-right-radius: 100%;
-	bottom: 0;
-	height: 240px;
-	position: absolute;
-	width: 275px;
-	z-index: -10;
+  background-color: #b19995;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  bottom: 0;
+  height: 240px;
+  position: absolute;
+  width: 275px;
+  z-index: -10;
 }
+
+/*
 
 .window__water {
 	animation: LavaWater 35s;
